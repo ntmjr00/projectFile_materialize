@@ -10,6 +10,22 @@
   padding-top: 100px;
 }
 
+/* SOlution Main Header Inner */
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+/* Solution Main Inner Showcase */
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
 .active-link {
   color: #d847f1;
   font-weight: bold;
@@ -59,7 +75,15 @@
     background: rgba(123, , blue, alpha)
 }
 
+.carousel-item p {
+  font-size: 20px !important;
+}
 
+/* Tabs Solution */
+
+.tabs .indicator{
+  background-color: #6a1b1a !important;
+}
 
 @media (max-width: 500px){
   .section-developers,
