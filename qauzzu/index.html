@@ -13,15 +13,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Custom Materialize Theme</title>
 </head> 
-
-<body>
+<body>  
   <!-- Header -->
   <header class="main-header">
     <nav  class="transparent">
       <div class="container">
         <div class="nav-wrapper">
         <a href="#" class="brand-logo">Quazzu</a>
-        <a href="#" class="button-collapse">
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
          <i class="fa fa-bars"></i>
   </a>
     <ul class="right hide-on-med-and-down">
@@ -35,7 +34,7 @@
         <a href="signup.html">Sign up</a>
       </li>
       <li>
-        <a href="login.html" class="btn purple">Login</a>
+        <a href="#login-modal" class="btn purple modal-trigger">Login</a>
       </li>
       <li>
           <a href="https://facebook.com">
@@ -52,13 +51,265 @@
               <i class="fab fa-instagram">instagram</i>
               </a>
             </li>
-
+    </ul>
+    <ul class="side-nav" id="mobile-nav">
+      <h4 class="purple-text text-darker-4 center">Quazzu</h4>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="index.html">Home
+        <i class="fa fa-home grey-text text-darker-4"></i>
+      </li>
+      <li>
+          <a href="solutions.html">Solultion
+              <i class="fa fa-cog grey-text text-darker-4"></i>
+      </li>
+      <li>
+          <a href="signup.html">Sign up
+              <i class="fa fa-users grey-text text-darker-4"></i>
+            </a>
+      </li>
+      <li><div class="divider"></div>
+      </li>
+      <li>
+        <a href="" class="btn purple">login</a></li>
     </ul>
     </div>
   </div>
-
   </nav>
+
+<div class="showcase container">
+  <div class="row">
+    <div class="col s12 m10 offset-m1 center">
+    <h5>Weclome to Quazzu</h5>
+    <h1>Build for the future</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima reiciendis officiis molestias</p>
+<br>
+<br>
+<a href="solution.html" class="btn btn-large white purple-text">Learn More</a>
+<a href="signup.html" class="btn btn-large purple white-text">Sign Up</a>
+  </div>
+</div>
+</div>
 </header>
+<!--section-->
+<section class="section section-icons center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+     <div class="card-panel"><i class="fa fa-user fa-3x deep-purple-text text-darker-2"></i>
+  <h5 class="grey-text text-darker-4">Free Account</h5>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste minus ullam corrupti quaerat </p>
+     </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m4">
+       <div class="card-panel"><i class="fa fa-database fa-3x deep-purple-text text-darker-2"></i>
+    <h5 class="grey-text text-darker-4">Data Base</h5>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste minus ullam corrupti quaerat</p>
+       </div>
+      </div>
+      <div class="row">
+          <div class="col s12 m4">
+         <div class="card-panel"><i class="fa fa-bolt fa-3x deep-purple-text text-darker-2"></i>
+      <h5 class="grey-text text-darker-4">Fast Connection</h5>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste minus ullam corrupti quaerat</p>
+         </div>
+        </div>
+</section>
+
+<!--Section about-->
+<section class="section section-about grey lighten-4">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+      <h3><span class="deep-purple-text text-darken-1">About</span> Us</h3>
+      <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint expedita reiciendis atque esse dignissimos unde magni non nam doloribus tenetur fuga rerum quod sit sequi excepturi voluptas sed, ex molestias?
+      </p>
+      </div>
+      <div class="col s12 m6">
+        <img src="img/tech.jpg" alt="" 
+        class="circle responsive-img"></div>
+    </div>
+  </div>
+</section>
+
+<!--section Developer-->
+
+<section class="section section-developers white-text">
+  <div class="primary-overlay valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h3>For Developer, By Developer</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Section Language-->
+
+<section class="section section-language grey lighten-4">
+  <div class="container">
+    <div class="row">
+      <h4 class="center">Work With <span class="deep-purple-text text-darker-1">Any Language </span>
+      </h4>
+      <br>
+      <br>
+          <div class="row">
+            <div class="col s2">
+              <img src="img/python-logo.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s2">
+              <img src="img/ruby-logo.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s2">
+              <img src="img/php-logo.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s2">
+              <img src="img/node-logo.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s2">
+              <img src="img/c-sharp-logo.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s2">
+              <img src="img/java-logo.png" alt="" class="responsive-img">
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+<!-- PODCAST -->
+
+<section class="section section-podcast white-text">
+  <div class="primary-overlay valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m8">
+          <h4>Listen to the Quazzo Podcast</h4>
+          <p>Every Thursday at 5pm EST</p>
+        </div>
+        <div class="col s12 m4"><a href="" class="btn purple btn-large">
+        <i class="fa fa-podcast"></i>listen</a></div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- SECTION TESTIMONIAL -->
+
+<section class="section section-text testimonial grey lighten-4">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 carousel carousel-slider center">
+          <div class="carousel-item" href="#one!">
+            <h2>Testimonial 1</h2>
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quo veniam molestias quia, earum quam quas consequatur corporis voluptatem 
+              voluptatum cumque, labore placeat, magnam architecto eveniet praesentium 
+              consectetur maxime. Dolorem, dignissimos.</p>
+              <p><em>John Doe From Microsoftsystem</em></p>
+              <div class="carousel-fixed-item center hide-on-smal-and-down">
+                <a href="" class="btn grey">more</a>
+          </div>
+        </div>
+
+          <div class="carousel-item" href="#two!">
+            <h2>Testimonial 2</h2>
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quo veniam molestias quia, earum quam quas consequatur corporis voluptatem 
+              voluptatum cumque, labore placeat, magnam architecto eveniet praesentium 
+              consectetur maxime. Dolorem, dignissimos.</p>
+              <p><em>Anthony Myers Linux</em></p>
+              <div class="carousel-fixed-item center hide-on-smal-and-down">
+                <a href="" class="btn grey">more</a>
+          </div>
+        </div>
+          <div class="carousel-item" href="#three!">
+            <h2>Testimonial 3</h2>
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quo veniam molestias quia, earum quam quas consequatur corporis voluptatem 
+              voluptatum cumque, labore placeat, magnam architecto eveniet praesentium 
+              consectetur maxime. Dolorem, dignissimos.</p>
+              <p><em>Lorry Burns Java </em></p>
+              <div class="carousel-fixed-item center hide-on-smal-and-down">
+                <a href="" class="btn grey">more</a>
+          </div>
+        </div>
+          <div class="carousel-item" href="#four!">
+            <h2>Testimonial 4</h2>
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quo veniam molestias quia, earum quam quas consequatur corporis voluptatem 
+              voluptatum cumque, labore placeat, magnam architecto eveniet praesentium 
+              consectetur maxime. Dolorem, dignissimos.</p>
+              <p><em>Jeeny Sier IOS </em></p>
+              <div class="carousel-fixed-item center hide-on-smal-and-down">
+                <a href="" class="btn grey">more</a>
+          </div>
+        </div>
+        
+        
+      </div> 
+    </div>
+  </div>
+</section>
+
+<!-- Footer  -->
+<footer class="page-footer deep-purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright deep-purple darken-1">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+      
+
+
+<!-- Modal -->
+<div id="login-modal" class="modal">
+  <div class="modal-content">
+    <h4>Account Login</h4>
+    <p>Login to access your account dashboard</p>
+    <form>
+      <div class="input-field">
+        <input type="email" id="email">
+        <label for="">Email</label></div>
+      <div class="input-field">
+        <input type="password" id="Password">
+        <label for="email">Password</label></div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close btn grey">
+ <i class="fa fa-sync"></i> Reset Password></i></a>
+<div class="modal-footer">
+  <a href="#!" class="modal-action modal-close btn purple">
+  <i class="fa fa-lock"></i> Login</div></a>
+
+<!-- Modal Ending -->
+
+
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -67,7 +318,14 @@
     $(document).ready(function () {
       // Custom JS & jQuery here
 
+      $('.carousel.carousel-slider').carousel({ fullWidth: true});
+      $('.button-collapse').sideNav();
+      $('.modal').modal();
+
     });
+
+
+
   </script>
 </body>
 
